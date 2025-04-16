@@ -1,5 +1,5 @@
 import FreeCAD, App, FreeCADGui, Part, os
-from PySide2 import QtWidgets
+from PySide import QtWidgets
 
 ICONPATH = os.path.join(os.path.dirname(__file__), "resources")
 
