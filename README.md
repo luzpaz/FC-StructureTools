@@ -8,6 +8,15 @@ The goal is to provide engineers and engineering students with a powerful and ea
 
 **Note:** The tools developed are limited to modeling, calculation and analysis of stresses in structural elements. The focus is not on developing tools for dimensioning these elements. The dimensioning will be handled by another workbench that I am developing in parallel to this one.
 
+## screenshots
+
+![](https://github.com/maykowsm/StructureTools/blob/main/freecad/StructureTools/resources/screenshots/galpao.png)
+![](https://github.com/maykowsm/StructureTools/blob/main/freecad/StructureTools/resources/screenshots/lajes.png)
+![](https://github.com/maykowsm/StructureTools/blob/main/freecad/StructureTools/resources/screenshots/viga2D.png)
+![](https://github.com/maykowsm/StructureTools/blob/main/freecad/StructureTools/resources/screenshots/viga3D.png)
+
+freecad/StructureTools/resources/screenshots/galpao.png
+
 ## Installing
 
 At the moment, the StructureTools workbench can only be installed manually. I am working on getting the workbench into the FreeCAD repository.
@@ -55,11 +64,13 @@ You can see more about the tools in these videos:
 You can follow the development of the project here: https://github.com/users/maykowsm/projects/1/views/1
 I'm trying to write proper documentation for the FreeCAD Wiki, if you want to help me, you'll be welcome.
 
+You can also follow the discussion about StructureTools on the FreeCAD forum: https://forum.freecad.org/viewtopic.php?t=94995
+
 Please consider supporting the project so I can dedicate more time to it: [  Patreon  ](https://patreon.com/StructureTools), [  ApoiaSe  ](  https://apoia.se/structuretools  )
 
 ## Dependencies
 
-['numpy','scipy','prettytable','PyniteFEA']
+['numpy']
 
 ## Maintainer
 
