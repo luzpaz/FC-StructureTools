@@ -16,6 +16,7 @@
       <icon>freecad/StructureTools/resources/icone.svg</icon>
       <freecadmin>1.0.0</freecadmin>
       <depend>numpy</depend>
+      <depend>scipy</depend>
     </workbench>
   </content>
 
