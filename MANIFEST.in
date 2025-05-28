@@ -1,1 +1,41 @@
-recursive-include freecad/StructureTools/resources *
+;***************************************************************************
+;* Meta Section                                                            *
+;* General identification metadata                                         *
+;***************************************************************************
+[general]
+version=0.0.1
+name=StructureTools
+title=StructureTools
+description=This is a workbench for FreeCAD that implements a set of tools for modeling and analyzing structural stresses, similar to analysis software such as SAP2000, Cype3D, SkyCiv, EdiLus, among many others.
+iconPath=freecad/StructureTools/resources/icone.svg
+license=LGPL-3.0-or-later
+licensePath=LICENSE
+authors=Maykow Menezes
+categories=Structure
+homepage=https://github.com/maykowsm/StructureTools
+
+;***************************************************************************
+;* Packages dependencies                                                   *
+;***************************************************************************
+[dependencies]
+workbenches=
+
+pylibs=python-numpy
+
+optionalpylibs=python-scipy
+
+external=
+
+;***************************************************************************
+;* Install                                                                 *
+;***************************************************************************
+[install]
+notesPath=README.md
+mode=git
+checkUpdates=true
+
+;***************************************************************************
+;* Git config                                                              *
+;***************************************************************************
+[git]
+repository=https://github.com/maykowsm/StructureTools.git
