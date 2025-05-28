@@ -7,6 +7,11 @@
   <license file="LICENSE">LGPL-3.0-or-later</license>
   <url type="repository" branch="main">https://github.com/maykowsm/StructureTools</url>
   
+  <Dependencies>
+      <Dependency Name="numpy" Type="Python" Optional="false" />
+      <Dependency Name="scipy" Type="Python" Optional="false" />
+      <Dependency Name="prettytable" Type="Python" Optional="false" />
+  </Dependencies>
 
   <content>
     <workbench>
@@ -17,6 +22,7 @@
       <freecadmin>1.0.0</freecadmin>
       <depend>numpy</depend>
       <depend>scipy</depend>
+      <depend>prettytable</depend>
     </workbench>
   </content>
 
